@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+      background-color: beige;
+        color: #00264d;
+          text-align: center;
+            margin: 0;
+              padding: 20px;
+              }
+
+              #title {
+                color: orange;
+                  margin-bottom: 8px;
+                  }
+
+                  #description {
+                    margin-bottom: 20px;
+                      font-size: 18px;
+                        font-weight: 500;
+                        }
+
+                        #survey-form {
+                          background-color: #ffffff;
+                            max-width: 550px;
+                              margin: auto;
+                                padding: 25px;
+                                  border-radius: 12px;
+                                    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+                                      text-align: left;
+                                      }
+
+                                      label {
+                                        display: block;
+                                          margin-top: 15px;
+                                            font-weight: bold;
+                                              color: #00264d;
+                                              }
+
+                                              input,
+                                              select,
+                                              textarea {
+                                                width: 100%;
+                                                  padding: 9px;
+                                                    margin-top: 5px;
+                                                      border: 2px solid orange;
+                                                        border-radius: 6px;
+                                                          box-sizing: border-box;
+                                                          }
+
+                                                          input[type="radio"],
+                                                          input[type="checkbox"] {
+                                                            width: auto;
+                                                              margin-right: 6px;
+                                                              }
+
+                                                              button {
+                                                                margin-top: 22px;
+                                                                  width: 100%;
+                                                                    padding: 11px;
+                                                                      background-color: orange;
+                                                                        color: white;
+                                                                          border: none;
+                                                                            border-radius: 6px;
+                                                                              font-size: 17px;
+                                                                                cursor: pointer;
+                                                                                }
+
+                                                                                button:hover {
+                                                                                  background-color: #cc7000;
+                                                                                    transition: 0.2s;
+                                                                                    }
